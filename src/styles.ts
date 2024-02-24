@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 const Colors = {
   corPrincipal: '#a7727d',
-  corSecudandaria: '#f9f5e7'
+  corSecundaria: '#f9f5e7',
+  corTerciaria: '#eee'
 }
 
 export default Colors

@@ -5,7 +5,6 @@ import { ThemeProvider } from 'styled-components'
 
 import Colors from './styles'
 import Cabecalho from './components/Cabecalho'
-import FormVagas from './components/FormVagas'
 
 function App() {
   return (

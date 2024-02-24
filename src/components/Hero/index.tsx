@@ -1,6 +1,4 @@
-import styled from 'styled-components'
-import { Form } from './styles'
-import { Titulo } from './styles'
+import { Form, Titulo } from './styles'
 import { Container } from '../../global'
 
 const Hero = () => (
