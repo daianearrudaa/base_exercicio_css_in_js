@@ -12,12 +12,10 @@ function App() {
   return (
     <ThemeProvider theme={Colors}>
       <EstiloGlobal />
+      <Cabecalho />
+      <Hero />
       <Container>
-        <Cabecalho />
-        <Hero />
-        <div>
-          <ListaVagas />
-        </div>
+        <ListaVagas />
       </Container>
     </ThemeProvider>
   )
