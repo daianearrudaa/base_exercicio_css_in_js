@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react'
+import React, { FormEvent, useState } from 'react'
 
 import { FormVaga, Campo, Botao } from './styles'
 
@@ -15,12 +15,8 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   }
 
   return (
-    <FormVaga>
-      <input
-        placeholder="Front-end, fullstack, node, design"
-        onChange={(e) => setTermo(e.target.value)}
-        type="search"
-      />
+    <FormVaga onSubmit={(e) => aoEnviarForm(e)}>
+      <Campo onChange={(e) => setTermo(e.target.value)} />
       <Botao>Pesquisar</Botao>
     </FormVaga>
   )

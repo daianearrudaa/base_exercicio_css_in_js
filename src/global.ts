@@ -13,10 +13,6 @@ const EstiloGlobal = createGlobalStyle`
 body {
   padding-bottom: 120px;
 }
-
-.container {
-
-}
 `
 export default EstiloGlobal
 
